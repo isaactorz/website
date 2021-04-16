@@ -1,3 +1,25 @@
 .current {
     color: green;
 }
+
+body {
+    color: #222;
+    background: #fff;
+    font: 100% system-ui;
+    font-weight: 400;
+  }
+  a {
+    color: #0033cc;
+  }
+  
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #dee2e6;
+    background: #282c34;
+    font-weight: 350;
+  }
+  
+  body a {
+    color: #809fff;
+  }
+}
